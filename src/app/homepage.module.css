@@ -1,0 +1,339 @@
+
+.HomepageImgContainer {
+    width: 1536px;
+    height: 1000px;
+}
+
+.HomepageImg {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.TextOne { 
+  position: absolute;
+  font-family: var(--font-yaldevi);
+  background-color: rgb(148, 148, 236);
+  font-weight: 600;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 240px;
+  left: 500px;
+  animation-name: TextOne;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: 1;
+ /*animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  z-index: 1;
+
+}
+
+@keyframes TextOne {
+  from  { top:240px; left:50px;}
+  to   { top:240px; left:500px;}
+}
+
+.TextTwo{
+  font-family: var(--font-yaldevi);
+  background-color:  rgb(207, 207, 239);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 300px;
+  left: 500px;
+  animation-name: TextTwo;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1;
+
+}
+
+@keyframes TextTwo {
+  0%   {top:0px; left:280px;}
+  25%  {top:0px; left:280px;}
+  50%  {top:270px; left:280px;}
+  75%  {top:290px;left:280px;}
+  100% {top:300px; left:500px}
+
+}
+
+
+.TextThree {
+  font-family: var(--font-yaldevi);
+  font-weight: 600;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  font-family: var(--font-yaldevi);
+  background-color: rgb(148, 148, 236);
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 360px;
+  left: 500px;
+  animation-name: TextThree;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: 1;
+ /* animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  z-index: 1;
+
+}
+
+@keyframes TextThree {
+  from { top:360px; left:50px;}
+    to {top:360px; left:500px;}
+}
+
+
+.TextFour {
+  font-family: var(--font-yaldevi);
+  background-color:  rgb(207, 207, 239);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 0px;
+  left: 50px;
+  animation-name: TextFour;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1;
+
+}
+
+@keyframes TextFour {
+  0%   {top:0px; left:50px;}
+  25%  {top:0px; left:50px;}
+  50%  {top:300px; left:50px;}
+  75%  {top:410px;left:50px;}
+  100% {top:420px; left:500px}
+}
+
+.TextFive {
+  font-family: var(--font-yaldevi);font-family: var(--font-yaldevi);
+  background-color:  rgb(148, 148, 236);
+  font-weight: 600;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 480px;
+  left: 500px;
+  animation-name: TextFive;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: 1;
+ /* animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  z-index: 1;
+
+}
+
+@keyframes TextFive {
+  from {top:480px; left:50px;}
+  to {top:480px; left: 500px;}
+}
+
+.AnimationCon {
+  position: relative;
+  bottom: 840px;
+  left: 300px;
+}
+
+
+
+@media (max-width: 1536px) {
+    .HomepageImgContainer {
+      width: 1366px;
+      height: 1000px;
+    }
+    
+.AnimationCon {
+  position: relative;
+  bottom: 840px;
+  left: 230px;
+}
+  }
+  
+  @media (max-width: 1366px) {
+    .HomepageImgContainer {
+      width: 1280px;
+      height: 900px;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    .HomepageImgContainer {
+      width: 1024px;
+      height: 700px;
+    }
+    
+.AnimationCon {
+  position: relative;
+  bottom: 690px;
+  left: 0px;
+}
+  }
+  
+  @media (max-width: 1024px) {
+    .HomepageImgContainer {
+      width: 768px;
+      height: 650px;
+    }
+    
+.AnimationCon {
+  position: relative;
+  bottom: 640px;
+  left: -160px;
+}
+
+.TextFour{
+  font-family: var(--font-yaldevi);
+  background-color:  rgb(207, 207, 239);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 60px;
+  left: 500px;
+  animation-name: TextFour;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1;
+
+}
+
+@keyframes TextFour {
+  0%   {top:60px; left:280px;}
+  25%  {top:60px; left:280px;}
+  50%  {top:320px; left:280px;}
+  75%  {top:420px;left:280px;}
+  100% {top:420px; left:500px}
+
+}
+  }
+  
+  @media (max-width: 768px) {
+    .HomepageImgContainer {
+      width: 640px;
+      height: 570px;
+    }
+    
+.AnimationCon {
+  position: relative;
+  bottom: 600px;
+  left: -250px;
+}
+.TextTwo {
+  font-family: var(--font-yaldevi);
+  background-color:  rgb(207, 207, 239);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 30px;
+  left: 500px;
+  animation-name: TextTwo;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1;
+
+}
+
+@keyframes TextTwo {
+  0%   {top:30px; left:280px;}
+  25%  {top:30px; left:280px;}
+  50%  {top:270px; left:280px;}
+  75%  {top:300px;left:280px;}
+  100% {top:300px; left:500px}
+
+  }
+
+.TextFour {
+  font-family: var(--font-yaldevi);
+  background-color:  rgb(207, 207, 239);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  outline: auto;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 90px;
+  left: 500px;
+  animation-name: TextFour;
+  animation-duration: 8s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1;
+
+}
+
+@keyframes TextFour {
+  0%   {top:90px; left:280px;}
+  25%  {top:90px; left:280px;}
+  50%  {top:370px; left:280px;}
+  75%  {top:420px;left:280px;}
+  100% {top:420px; left:500px}
+
+  }
+}
+  
+  @media (max-width: 640px) {
+    .HomepageImgContainer {
+      width: 475px;
+      min-height: 1000px;
+    }
+
+    .AnimationCon {
+      position: relative;
+      bottom: 850px;
+      left: -250px;
+    }
+  }
+   
+  

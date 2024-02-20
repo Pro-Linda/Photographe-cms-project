@@ -1,0 +1,67 @@
+.TarifName {
+    font-family: var(--font-yaldevi);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.TarifContainer {
+    font-family: var(--font-yaldevi);
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.FirstPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.SecondPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.ImgPortrait {
+    width: 420px;
+    height: 280px;
+    margin-bottom: 10px;
+}
+
+.ImgCouple {
+    width: 420px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.ImgFamille {
+    width: 420px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.ImgGrossesse {
+    width: 420px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.ImgBebe {
+    width: 420px;
+    height: 300px;
+    margin-bottom: 10px;
+
+}
+
+.ImgBapteme {
+    width: 360px;
+    height: 500px; 
+    margin-bottom: 10px;
+}

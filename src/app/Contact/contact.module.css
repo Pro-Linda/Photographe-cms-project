@@ -1,0 +1,691 @@
+.ContactName {
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    font-family: var(--font-yaldevi);
+    
+}
+
+
+.ContactContainer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 70px;
+}
+
+.ImgContainer {
+    position: relative;
+    opacity: 0.7;
+    width: 650px;
+    height: auto;
+}
+
+.ImgPhotograph {
+    width: 650px;
+    height: auto;
+}
+
+
+.Formular {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.ImgText {
+    position: absolute;
+    width: 50%;
+    font-family: var(--font-yaldevi);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 -1px black;
+    font-size: 18px;
+    font-weight: 500;
+    bottom: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+.ImgText h2 {
+    margin-bottom: 42px;
+}
+
+
+.FormularName {
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMail {
+    width: 710px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularPhone {
+    width: 710px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMessage {
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularButton {
+    position: relative;
+    width: 710px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--font-yaldevi);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(148, 148, 236);
+    border: none;
+    cursor: pointer;
+}
+
+.FormularButton:hover  {
+    color: black;
+    background-color:  rgb(207, 207, 239);
+}
+
+
+/* ------------------------------------- Start of the Mediaquery ----------------------------- */
+    
+  @media (max-width: 1536px) {
+.FormularName {
+    width: 270px;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMail {
+    width: 550px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularPhone {
+    width: 550px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMessage {
+    width: 550px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularButton {
+    position: relative;
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--font-yaldevi);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(148, 148, 236);
+    border: none;
+    cursor: pointer;
+}
+  }
+  
+    @media (max-width: 1366px) {
+        
+.FormularName {
+    width: 270px;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMail {
+    width: 550px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularPhone {
+    width: 550px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMessage {
+    width: 550px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularButton {
+    position: relative;
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--font-yaldevi);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(148, 148, 236);
+    border: none;
+    cursor: pointer;
+}
+    }
+
+
+
+/* ----1280 ---------------------------------- */
+    
+    @media (max-width: 1280px) {
+
+        .ContactName {
+            position: absolute;
+            top: 230px;
+            left: 590px;
+        }
+
+        .ContactContainer {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-left: 50px;
+            margin-top: 120px;
+        }
+        
+        .ImgContainer {
+            position: relative;
+            opacity: 0.7;
+            width: 450px;
+            height: auto;
+        }
+        
+        .ImgPhotograph {
+            width: 450px;
+            height: auto;
+        }
+
+        .ImgText {
+            position: absolute;
+            width: 60%;
+            font-family: var(--font-yaldevi);
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: -1px 0 black, 0 -1px black;
+            font-size: 18px;
+            font-weight: 500;
+            bottom: 50px;
+            left: 100px;
+            z-index: 1;
+        }
+        
+        .ImgText h2 {
+            margin-bottom: 0px;
+        }
+
+
+.FormularName {
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMail {
+    width: 410px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularPhone {
+    width: 410px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMessage {
+    width: 410px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularButton {
+    position: relative;
+    width: 410px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--font-yaldevi);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(148, 148, 236);
+    border: none;
+    cursor: pointer;
+}
+    }
+    
+    /* -----1024 --------------------------------- */
+    @media (max-width: 1024px) {
+        .ContactName {
+            position: absolute;
+            top: 230px;
+            left: 490px;
+        }
+
+        .ContactContainer {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-left: 50px;
+            margin-top: 120px;
+            margin-bottom: 30px;
+        }
+        
+        .ImgContainer {
+            position: relative;
+            opacity: 0.7;
+            width: 350px;
+            height: auto;
+        }
+        
+        .ImgPhotograph {
+            width: 380px;
+            height: auto;
+        }
+
+        .ImgText {
+            position: absolute;
+            width: 80%;
+            font-family: var(--font-yaldevi);
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: -1px 0 black, 0 -1px black;
+            font-size: 18px;
+            font-weight: 500;
+            bottom: 25px;
+            left: 50px;
+            z-index: 1;
+        }
+        
+        .ImgText h2 {
+            margin-bottom: 0px;
+        }
+
+
+.FormularName {
+    width: 140px;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMail {
+    width: 290px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularPhone {
+    width: 290px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularMessage {
+    width: 290px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: var(--font-yaldevi);
+}
+
+.FormularButton {
+    position: relative;
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--font-yaldevi);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(148, 148, 236);
+    border: none;
+    cursor: pointer;
+}
+    }
+
+
+
+
+  /* ---- 768  ----------------------- */
+    @media (max-width: 768px) {
+        .ContactName {
+            position: absolute;
+            top: 250px;
+            left: 340px;;
+            
+        }
+        
+        
+        .ContactContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+            margin-left: 0px;
+        }
+        
+        .ImgContainer {
+            position: relative;
+            opacity: 0.7;
+            width: 600px;
+            height: auto;
+        }
+        
+        .ImgPhotograph {
+            width: 600px;
+            height: auto;
+        }
+        
+        
+     
+        
+        .ImgText {
+            position: absolute;
+            width: 50%;
+            font-family: var(--font-yaldevi);
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: -1px 0 black, 0 -1px black;
+            font-size: 18px;
+            font-weight: 500;
+            bottom: 80px;
+            left: 150px;
+            z-index: 1;
+        }
+        
+        .ImgText h2 {
+            margin-bottom: 42px;
+        }
+
+
+        .Formular {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            margin-left: 30px;
+            }
+        
+        
+        .FormularName {
+            width: 280px;
+            height: 50px;
+            padding-left: 10px;
+            margin-right: 10px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularMail {
+            width: 570px;
+            height: 50px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            margin-top: 10px;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularPhone {
+            width: 570px;
+            height: 50px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            margin-top: 10px;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularMessage {
+            width: 570px;
+            padding-left: 10px;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularButton {
+            position: relative;
+            width: 570px;
+            height: 40px;
+            border-radius: 10px;
+            font-family: var(--font-yaldevi);
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background-color: rgb(148, 148, 236);
+            border: none;
+            cursor: pointer;
+        }
+  }
+
+  /* ---------- 640 ---------------------------- */
+    
+    @media (max-width: 640px) {
+        .ContactName {
+            position: absolute;
+            top: 250px;
+            left: 280px;;
+            
+        }
+        
+        
+        .ContactContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+            margin-left: 0px;
+        }
+        
+        .ImgContainer {
+            position: relative;
+            opacity: 0.7;
+            width: 430px;
+            height: auto;
+        }
+        
+        .ImgPhotograph {
+            width: 430px;
+            height: auto;
+        }
+        
+        
+     
+        
+        .ImgText {
+            position: absolute;
+            width: 70%;
+            font-family: var(--font-yaldevi);
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: -1px 0 black, 0 -1px black;
+            font-size: 18px;
+            font-weight: 500;
+            bottom: 45px;
+            left: 60px;
+            z-index: 1;
+        }
+        
+        .ImgText h2 {
+            margin-bottom: 0px;
+        }
+
+
+        .Formular {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            margin-left: 30px;
+            }
+        
+        
+        .FormularName {
+            width: 200px;
+            height: 50px;
+            padding-left: 10px;
+            margin-right: 10px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularMail {
+            width: 410px;
+            height: 50px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            margin-top: 10px;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularPhone {
+            width: 410px;
+            height: 50px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            margin-top: 10px;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularMessage {
+            width: 410px;
+            padding-left: 10px;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-family: var(--font-yaldevi);
+        }
+        
+        .FormularButton {
+            position: relative;
+            width: 410px;
+            height: 40px;
+            border-radius: 10px;
+            font-family: var(--font-yaldevi);
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background-color: rgb(148, 148, 236);
+            border: none;
+            cursor: pointer;
+        }
+  }

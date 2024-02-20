@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: var(--font-yaldevi);
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+
+.container:hover {
+    background-color: #0d0c22;
+    color: white;
+}
+
+.active {
+    background-color: #0d0c22;
+    color: white;
+}
+
+
+@media (max-width: 1920px) {
+}

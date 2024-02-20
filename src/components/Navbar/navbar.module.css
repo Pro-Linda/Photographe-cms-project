@@ -1,0 +1,182 @@
+.container {
+    position: relative;
+    background-color: white;
+    width: inherit;
+    color: black;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.logoContainer {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 30px;
+}
+
+.mainNameC {
+    position: absolute;
+    min-width: 260px;
+    font-family: var(--font-yaldevi);
+    font-weight: 400;
+    font-size: 2.5em; 
+    text-align: center;
+    bottom: 95px ;
+    left: 160px;
+}
+
+.mainNameP {
+    position: absolute;
+    min-width: 260px;
+    font-family: var(--font-yaldevi);
+    font-weight: 700;
+    font-size: 2.5em; 
+    text-align: center;
+    text-transform: uppercase;
+    left: 170px;
+    bottom: 55px;
+}
+
+
+.mainFunction {
+    position: absolute;
+    min-width: 180px;
+    color: grey;
+    font-family: var(--font-yaldevi);
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    left: 190px;
+    top: 130px;
+}
+
+.IconsContainer {
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    left: 1300px;
+    bottom: 100px;
+}
+
+.NavIcons {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+@media (max-width: 1920px) {
+        .NavIcons {
+        width: 30px;
+        height: 30px;
+        left: 10px;
+        margin-bottom: 30px;
+      }
+    }
+    .IconsContainer {
+        display: flex;
+    }
+  
+
+  @media (max-width: 1536px) {
+    .IconsContainer {
+      width: 40%;
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      top: 30px;
+      left: 1170px;  
+      }
+      .NavIcons {
+          width: 25px;
+          height: 25px;
+      }
+  }
+  
+  @media (max-width: 1366px) {
+    .IconsContainer {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        top: 30px;
+        left: 600px;  
+        }
+        .NavIcons {
+            width: 20px;
+            height: 20px;
+        }
+  }
+  
+  @media (max-width: 1280px) {
+    .IconsContainer {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        top: 20px;
+        left: 880px;  
+        }
+        .NavIcons {
+            width: 20px;
+            height: 20px;
+        }
+  }
+  
+  @media (max-width: 1024px) {
+    .IconsContainer {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        top: 20px;
+        left: 640px;  
+        }
+        .NavIcons {
+            width: 20px;
+            height: 20px;
+        }
+}
+  
+  @media (max-width: 768px) {
+    .IconsContainer {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        top: 20px;
+        left: 500px;  
+        }
+        .NavIcons {
+            width: 20px;
+            height: 20px;
+        }
+  }
+  
+  @media (max-width: 640px) {
+.IconsContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    top: 10px;
+    left: 350px;  
+    }
+    .NavIcons {
+        width: 20px;
+        height: 20px;
+    }
+  }
+
+
+
+
+
+
+
