@@ -29,7 +29,7 @@ const TarifPage = () => {
          <br/>
          <Image src={famille2} alt="Famille2" className={styles.ImgFamille}/>  
          <b>{`| Famille | ................... 220 euros `}</b>
-          {`Pour la famille ou les amis jusqu&apos;à 4 personnes, en extérieur ou en studio 
+          {`Pour la famille ou les amis jusqu'à 4 personnes, en extérieur ou en studio 
           30 euros en supplément par personne au-delà de 4 (hormis enfant jusqu&apos;à 2 ans). 
          `}</p>
 
@@ -43,13 +43,13 @@ const TarifPage = () => {
          <br/>
          <Image src={bebe1} alt="Bebe1" className={styles.ImgBebe}/> 
          <b>{`| Mon bébé | ....................................... 100 euros `}</b>
-         {`Photo d'enfant jusqu&apos;à 3 ans (photo à domicile).`}
+         {`Photo d'enfant jusqu'à 3 ans (photo à domicile).`}
          <br/>
          <br/>
          <br/>  
          <br/>
          <Image src={bapteme1} alt="Bapteme1" className={styles.ImgBapteme}/> 
-         <b>{`| J&apos;immortalise l&apos;événement | ....... sur mesure `}</b> 
+         <b>{`| J'immortalise l'événement | ....... sur mesure `}</b> 
          {`Prestation de mariage ou baptême sur devis`}
         </p>
       </div>

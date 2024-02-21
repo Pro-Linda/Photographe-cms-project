@@ -1,7 +1,5 @@
 .ContactName {
-    position: absolute;
-    top: 250px;
-    left: 950px;
+    margin-left: -150px;
     font-family: var(--font-yaldevi);
     
 }

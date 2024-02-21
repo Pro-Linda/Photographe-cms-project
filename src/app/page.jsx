@@ -12,7 +12,7 @@ const HomePage = () => {
       <div  className={styles.AnimationCon} >
      <div className={styles.TextOne}> <p>{`Mariage`}</p></div>
 
-     <div  className={styles.TextTwo}> <p>{`Fête D&apos;anniversaire`}</p></div>
+     <div  className={styles.TextTwo}> <p>{`Fête D'anniversaire`}</p></div>
 
      <div className={styles.TextThree}> <p>{`Portrait`}</p></div>
 
