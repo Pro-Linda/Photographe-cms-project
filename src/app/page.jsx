@@ -10,15 +10,15 @@ const HomePage = () => {
         <Image src={HomepagePic} alt="HomepagePictures" priority={true} className={styles.HomepageImg}/>
       
       <div  className={styles.AnimationCon} >
-     <div className={styles.TextOne}> <p>Mariage</p></div>
+     <div className={styles.TextOne}> <p>{`Mariage`}</p></div>
 
-     <div  className={styles.TextTwo}> <p>Fête D'anniversaire</p></div>
+     <div  className={styles.TextTwo}> <p>{`Fête D&apos;anniversaire`}</p></div>
 
-     <div className={styles.TextThree}> <p>Portrait</p></div>
+     <div className={styles.TextThree}> <p>{`Portrait`}</p></div>
 
-     <div  className={styles.TextFour}> <p>Communion</p></div>
+     <div  className={styles.TextFour}> <p>{`Communion`}</p></div>
 
-     <div className={styles.TextFive}> <p>Fête de révélation de bébé</p></div>
+     <div className={styles.TextFive}> <p>{`Fête de révélation de bébé`}</p></div>
     </div>
     </div>
     </div>  

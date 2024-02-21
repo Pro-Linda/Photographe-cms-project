@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar/navbar";
 import Footer from "@/components/Footer/footer";
 
 
+
 const yaldevi_init = Yaldevi({ 
   subsets: ["latin"],
   weight: ['200', '300', '400', '500', '600', '700'],
