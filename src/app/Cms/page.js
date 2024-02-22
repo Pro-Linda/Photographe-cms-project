@@ -1,6 +1,6 @@
 "use client"
 import Head from "next/head"
-import { attributes, react as HomeContent } from './components/Content/home.md'
+import { attributes, react as HomeContent } from './components/Home/home.md'
 
 export default class Home extends Component {
   render() {
