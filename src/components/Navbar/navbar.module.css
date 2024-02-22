@@ -67,7 +67,15 @@
 .NavIcons {
     width: 30px;
     height: 30px;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-out;
 
+}
+
+.NavIcons:hover {
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -167,6 +175,7 @@
     gap: 3px;
     top: 10px;
     left: 350px;  
+    
     }
     .NavIcons {
         width: 20px;

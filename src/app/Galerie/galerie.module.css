@@ -25,16 +25,7 @@
 
 .GalerieImage:hover {
     transform: scale(1.5);
-}
-   /* border-radius: 15px;
-    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white; 
 } 
-
-  .GalerieImage:hover {
-    height: 300px;
-    width: 900px; 
-  }   */
-
 
 .galerieWrapper {
     padding: 5% 10%;

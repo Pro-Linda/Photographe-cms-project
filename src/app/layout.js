@@ -19,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </head>
       <body className={yaldevi_init.variable}>
+
         <div className="container"> 
         <Navbar />
         {children}
