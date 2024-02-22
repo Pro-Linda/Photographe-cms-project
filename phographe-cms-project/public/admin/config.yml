@@ -4,8 +4,8 @@
 media_folder: public/images
 public_folder: images
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: "page"
+    label: "Page"
     files:
     - label: "Home"
       name: "home"
