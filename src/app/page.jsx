@@ -1,5 +1,4 @@
 
-"use client"
 import Image from "next/image";
 import styles from "./homepage.module.css"
 import HomepagePic from "/public/HomepagePic.jpg"
