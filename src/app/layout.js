@@ -18,9 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head  src="https://identity.netlify.com/v1/netlify-identity-widget.js">     
-      </head>
+    <html lang="en">     
       <body className={yaldevi_init.variable}>
         
         <div className="container"> 
